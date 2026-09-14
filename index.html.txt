@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Иван Иванов — Веб-визитка</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f5f5f5;
+      color: #222;
+      line-height: 1.5;
+    }
+    .card {
+      max-width: 500px;
+      margin: 60px auto;
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+      padding: 30px;
+      text-align: center;
+    }
+    .avatar {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 15px;
+      background: #ddd;
+    }
+    h1 {
+      font-size: 24px;
+      margin: 10px 0 5px;
+    }
+    p.title {
+      font-size: 16px;
+      color: #555;
+      margin: 0 0 20px;
+    }
+    .links a {
+      display: inline-block;
+      margin: 6px 8px;
+      padding: 8px 14px;
+      background: #007bff;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 6px;
+      font-size: 14px;
+    }
+    .links a:hover {
+      background: #0056b3;
+    }
+    .contacts {
+      margin-top: 20px;
+      font-size: 14px;
+      color: #444;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <!-- Замени ссылку ниже на своё фото или удали этот тег, если фото нет -->
+    <img src="https://via.placeholder.com/120" alt="Фото" class="avatar" />
+
+    <h1>Иван Иванов</h1>
+    <p class="title">Инженер-электронщик | CAD-автоматизация</p>
+
+    <div class="links">
+      <a href="https://t.me/твой_telegram" target="_blank">Telegram</a>
+      <a href="https://github.com/твой_ник" target="_blank">GitHub</a>
+      <a href="mailto:you@example.com">Email</a>
+    </div>
+
+    <div class="contacts">
+      Москва, Россия<br />
+      +7 (999) 000-00-00
+    </div>
+  </div>
+</body>
+</html>
